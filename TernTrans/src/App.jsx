@@ -4,17 +4,20 @@ import Busses from "./pages/Busses.jsx";
 import Marshrutky from "./pages/Marshrutky.jsx";
 import Trolleybusses from "./pages/Trolleybusses.jsx";
 import Trains from "./pages/Trains.jsx";
+import Layout from "./layout/Layout.jsx";
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/busses" element={<Busses />} />
-        <Route path="/marshrutky" element={<Marshrutky />} />
-        <Route path="/trolleybusses" element={<Trolleybusses />} />
-        <Route path="/trains" element={<Trains />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/busses" element={<Busses />} />
+          <Route path="/marshrutky" element={<Marshrutky />} />
+          <Route path="/trolleybusses" element={<Trolleybusses />} />
+          <Route path="/trains" element={<Trains />} />
+        </Routes>
+      </Layout>
     </Router>
   );
 }

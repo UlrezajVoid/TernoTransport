@@ -1,0 +1,102 @@
+.layout_wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* header | content | footer */
+  max-width: 360px;
+  margin: 0 auto;
+  height: 100vh; /* повна висота екрану */
+}
+
+.layout_header {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #f1f1f1;
+  border-bottom: 2px solid #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+/* Основний верхній рядок */
+.header_main {
+  display: grid;
+  grid-template-columns: 50px 1fr; /* лого | правий блок */
+  gap: 5px;
+  align-items: start;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Правий блок: заголовок + бургер + опис */
+.header_right {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+/* Верхній рядок заголовок + бургер */
+.header_top {
+  display: grid;
+  grid-template-columns: 1fr 30px; /* заголовок | бургер */
+  align-items: center;
+  gap: 3px;
+}
+
+.header_title {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.burger {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Опис під заголовком */
+.header_description {
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* Навігація під верхнім блоком */
+.nav_buttons {
+  display: flex;
+  padding-top: 8px;
+  gap: 5px;          /* мінімальні відступи між кнопками */
+  flex-wrap: nowrap;  /* один рядок */
+}
+
+.nav_buttons button {
+  padding: 2px 4px;   /* зменшений padding */
+  font-size: 10px;
+  cursor: pointer;
+  flex: 0 0 auto;     /* ширина по контенту */
+  white-space: nowrap; /* перші 4 кнопки в один рядок */
+}
+
+.theme_toggle {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.layout_footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    border-top: 2px solid #e0e0e0;
+}
