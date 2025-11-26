@@ -1,11 +1,16 @@
-import { busSchedule } from "../busSchedule";
-import ScheduleDisplay from "../components/ScheduleDisplay";
+import { MarshTrollShedule } from "../date/TrolleybussesMarshrutky.jsx";
+import ScheduleLayout from "../components/ScheduleLayout.jsx";
 
 export default function Marshrutky() {
   return (
-    <>
-      <h1>Маршрутки</h1>
-      <ScheduleDisplay item={busSchedule} />
-    </>
+    <ScheduleLayout
+      data={MarshTrollShedule.filter(item => item.type === "marshrutka")}
+      filterConfig={{
+        types: ["маршрутка", "зупинка"],
+        defaultType: "маршрутка",
+        showValueFilter: true,
+        valuePlaceholder: "№ маршрутки / назва зупинки"
+      }}
+    />
   );
 }

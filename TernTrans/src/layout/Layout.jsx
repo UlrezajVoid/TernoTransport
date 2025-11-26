@@ -9,7 +9,7 @@ export default function Layout({ children }) {
   return (
     <>
       <div className="layout_wrapper">
-        <header className="layout_header">
+        <div className="layout_header">
           <div className="header_main">
             {/* Логотип */}
             <div className="logo">
@@ -37,7 +37,7 @@ export default function Layout({ children }) {
             <button onClick={() => navigate("/trains")}>Поїзди</button>
             <button onClick={() => navigate("/busses")}>Заміські автобуси</button>
           </nav>
-        </header>
+        </div>
 
         <div className="content">{children}</div>
         <div className="layout_footer">

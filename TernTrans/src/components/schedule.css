@@ -1,26 +1,60 @@
+.schedule_container {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  border: 2px solid black;
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .bus_container {
-    min-height: 100px;
-    width: 335px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    gap: 10px;
-    margin: 0 10px 10px 10px;
-    border: solid black 2px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 6px;
+  border-bottom: 2px solid #ccc;
+  padding: 15px;
 }
 
-.bus_name{
-    padding: 3px;
-    display: flex;
-    align-items: center;
+.bus_name {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #ccc;
+  width: 36px;
+  padding: 3px;
 }
 
-.bus_stops{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.bus_stops {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2px 4px;
 }
 
-.stops_item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.stops_item {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2px;
+}
+
+.arrow_column {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  width: fit-content;
+}
+
+.first_stop {
+  background-color: #d1f7c4;
+  font-weight: bold;
+}
+
+.last_stop {
+  background-color: #f7d1d1;
+  font-weight: bold;
 }

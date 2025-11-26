@@ -1,32 +1,42 @@
 .layout_wrapper {
   display: grid;
-  grid-template-rows: auto 1fr auto; /* header | content | footer */
-  max-width: 360px;
-  margin: 0 auto;
-  height: 100vh; /* повна висота екрану */
+  grid-template-rows: auto 1fr auto;
+  width: 100vw;
+  height: 100vh;
 }
 
 .layout_header {
-  max-width: 360px;
-  margin: 0 auto;
   padding: 10px;
   background: #f1f1f1;
   border-bottom: 2px solid #e0e0e0;
   font-family: Arial, sans-serif;
+  height: fit-content;
+  box-sizing: border-box;
 }
 
-/* Основний верхній рядок */
 .header_main {
   display: grid;
-  grid-template-columns: 50px 1fr; /* лого | правий блок */
+  grid-template-columns: 50px 1fr;
   gap: 5px;
   align-items: start;
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
 .logo img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
+  display: block;
 }
 
 /* Правий блок: заголовок + бургер + опис */
@@ -56,27 +66,26 @@
   cursor: pointer;
 }
 
-/* Опис під заголовком */
 .header_description {
   font-size: 12px;
   line-height: 1.2;
   text-align: left;
 }
 
-/* Навігація під верхнім блоком */
 .nav_buttons {
   display: flex;
   padding-top: 8px;
-  gap: 5px;          /* мінімальні відступи між кнопками */
-  flex-wrap: nowrap;  /* один рядок */
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 100%;
 }
 
 .nav_buttons button {
-  padding: 2px 4px;   /* зменшений padding */
+  padding: 2px 4px;
   font-size: 10px;
   cursor: pointer;
-  flex: 0 0 auto;     /* ширина по контенту */
-  white-space: nowrap; /* перші 4 кнопки в один рядок */
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .theme_toggle {
@@ -87,8 +96,14 @@
 }
 
 .content {
-    background-color: #ffffff;
-    text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
 }
 
 .layout_footer {
@@ -98,4 +113,5 @@
     font-size: 14px;
     color: #777777;
     border-top: 2px solid #e0e0e0;
+    height: fit-content;
 }
