@@ -1,3 +1,16 @@
+import { MarshTrollShedule } from "../date/TrolleybussesMarshrutky.jsx";
+import ScheduleLayout from "../components/ScheduleLayout.jsx";
+
 export default function Trolleybusses() {
-  return <h1>Тролейбуси</h1>;
+  return (
+    <ScheduleLayout
+      data={MarshTrollShedule.filter(item => item.type === "trolleybus")}
+      filterConfig={{
+        types: ["тролейбус", "зупинка"],
+        defaultType: "тролейбус",
+        showValueFilter: true,
+        valuePlaceholder: "№ тролейбуса / назва зупинки"
+      }}
+    />
+  );
 }
