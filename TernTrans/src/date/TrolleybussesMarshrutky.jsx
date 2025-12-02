@@ -75,7 +75,7 @@ export const MarshTrollShedule = [
 ]
   },
   {
-    "id": 2,
+    "id": 3,
     "type": "marshrutka",
     "number": "12",
     "name": "Обласна дитяча лікарня — вул. Карпенка",
@@ -114,7 +114,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 3,
+    "id": 4,
     "type": "marshrutka",
     "number": "13",
     "name": "вул.Симоненка — Автовокзал — пр-кт С.Бандери",
@@ -148,7 +148,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 4,
+    "id": 5,
     "type": "marshrutka",
     "number": "14",
     "name": "вул.Симоненка — Автовокзал — пр-кт С.Бандери",
@@ -181,7 +181,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 5,
+    "id": 6,
     "type": "marshrutka",
     "number": "15",
     "name": "вул.Золотогірська — пр-кт Злуки — пр-кт С.Бандери",
@@ -215,7 +215,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 6,
+    "id": 7,
     "type": "marshrutka",
     "number": "16",
     "name": "вул.Винниченка — вул.Київська",
@@ -257,7 +257,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 7,
+    "id": 8,
     "type": "marshrutka",
     "number": "17",
     "name": "р.н. Кутківці — Автовокзал",
@@ -283,7 +283,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-     "id": 8,
+     "id": 9,
     "type": "marshrutka",
     "number": "18",
     "name": "ТРЦ Подоляни — Газопровід",
@@ -337,7 +337,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 9,
+    "id": 10,
     "type": "marshrutka",
     "number": "19",
     "name": "ТРЦ Подоляни — вул.Винниченка",
@@ -382,7 +382,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 10,
+    "id": 11,
     "type": "marshrutka",
     "number": "20",
     "name": "вул.Київська — Автовокзал",
@@ -416,7 +416,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-     "id": 11,
+     "id": 12,
     "type": "marshrutka",
     "number": "20А",
     "name": "вул.Київська — Новий Ринок — Автовокзал",
@@ -451,7 +451,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 12,
+    "id": 13,
     "type": "marshrutka",
     "number": "21",
     "name": "вул. Л.Українки — ТРЦ Подоляни — Обласна дитяча лікарня",
@@ -490,7 +490,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 13,
+    "id": 14,
     "type": "marshrutka",
     "number": "22,22А",
     "name": "ТРЦ Подоляни — Новий ринок — Автовокзал",
@@ -532,7 +532,7 @@ export const MarshTrollShedule = [
   },
   {
     
-    "id": 14,
+    "id": 15,
     "type": "marshrutka",
     "number": "23",
     "name": "Пронятин —  Автовокзал",
@@ -564,7 +564,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 15,
+    "id": 16,
     "type": "marshrutka",
     "number": "24",
     "name": "вул.Новий Світ —  ТРЦ Подоляни",
@@ -594,7 +594,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 16,
+    "id": 17,
     "type": "marshrutka",
     "number": "25",
     "name": "вул.Золотогірська — пр-кт Бандери — пр-кт Злуки ",
@@ -629,7 +629,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 17,
+    "id": 18,
     "type": "marshrutka",
     "number": "26",
     "name": "вул.Ноивй Світ — Автовокзал ",
@@ -655,7 +655,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 18,
+    "id": 19,
     "type": "marshrutka",
     "number": "26A",
     "name": "вул.Ноивй Світ — Новий Ринок — Автовокзал ",
@@ -692,7 +692,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 19,
+    "id": 20,
     "type": "marshrutka",
     "number": "27",
     "name": "Обласна психоневрологічна лікарня — вул. Симоненка ",
@@ -739,7 +739,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 20,
+    "id": 21,
     "type": "marshrutka",
     "number": "28",
     "name": "вул.Бродівська — Містечко Шляховиків ",
@@ -785,7 +785,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 21,
+    "id": 22,
     "type": "marshrutka",
     "number": "29",
     "name": "вул.Вербицького — Ринок — вул.С.Будного ",
@@ -827,7 +827,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 22,
+    "id": 23,
     "type": "marshrutka",
     "number": "30",
     "name": "вул.Миру — Міська лікарня №2 ",
@@ -865,7 +865,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 23,
+    "id": 24,
     "type": "marshrutka",
     "number": "31",
     "name": "Газопровід — вул. М.Карпенка — Міська лікарня №3 ",
@@ -905,8 +905,8 @@ export const MarshTrollShedule = [
       "8-ма школа"
    ]
   },
-  {
-    "id": 24,
+  { 
+    "id": 25,
     "type": "marshrutka",
     "number": "32",
     "name": "вул. Івана Мазепи — Міське кладовище ",
@@ -923,7 +923,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 25,
+    "id": 26,
     "type": "marshrutka",
     "number": "33",
     "name": "Вид. Збруч — Обласний геріатричний будинок інтернат — дачі \"Ветеран\"",
@@ -940,7 +940,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 26,
+    "id": 27,
     "type": "marshrutka",
     "number": "35",
     "name": "Вид. Винниченка — Міська лікарня №2 — ТРЦ \"Подоляни\"",
@@ -977,7 +977,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-  "id": 27,
+  "id": 28,
     "type": "marshrutka",
     "number": "36",
     "name": "Міська лікарня №2 — Автовокзал",
@@ -1016,7 +1016,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-  "id": 28,
+  "id": 29,
     "type": "marshrutka",
     "number": "37",
     "name": "Овочевий ринок — Східний масив",
@@ -1044,7 +1044,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 29,
+    "id": 30,
     "type": "marshrutka",
     "number": "38",
     "name": "Центр — вул. Київська — вул. Лесі Українки",
@@ -1071,7 +1071,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 30,
+    "id": 31,
     "type": "marshrutka",
     "number": "39",
     "name": "Мікрорайон Північний — Ринок ",
@@ -1106,7 +1106,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 31,
+    "id": 32,
     "type": "marshrutka",
     "number": "40",
     "name": "Центр — Міське кладовище ",
@@ -1125,7 +1125,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 32,
+    "id": 33,
     "type": "marshrutka",
     "number": "49",
     "name": "вул. Новий світ — вул. Миру — Автовокзал ",
@@ -1155,7 +1155,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 33,
+    "id": 34,
     "type": "marshrutka",
     "number": "50",
     "name": "вул. Лучаківського — Газопровід ",
@@ -1189,7 +1189,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 34,
+    "id": 35,
     "type": "trolleybus",
     "number": "2",
     "name": "вул. Тролейбуса — вул. Газопровід ",
@@ -1226,7 +1226,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 35,
+    "id": 36,
     "type": "trolleybus",
     "number": "4",
     "name": "Ринок — вул. Олександра Довженка ",
@@ -1257,7 +1257,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 36,
+    "id": 37,
     "type": "trolleybus",
     "number": "5",
     "name": "вул. Володимира Винниченка — Центр ",
@@ -1298,7 +1298,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 37,
+    "id": 38,
     "type": "trolleybus",
     "number": "6",
     "name": "вул. Тролейбусна — вул. Лесі Українки — вул. Київська ",
@@ -1336,7 +1336,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 38,
+    "id": 39,
     "type": "trolleybus",
     "number": "7",
     "name": "Центральний ринок — вул. Бродівська — вул. Лесі Українки ",
@@ -1389,7 +1389,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 39,
+    "id": 40,
     "type": "trolleybus",
     "number": "8",
     "name": "вул. Леся Курбаса — Газопровід ",
@@ -1438,7 +1438,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 40,
+    "id": 41,
     "type": "trolleybus",
     "number": "9",
     "name": "вул. Сергія Корольова — Ринок — вул. Василя Острозького ",
@@ -1477,7 +1477,7 @@ export const MarshTrollShedule = [
    ]
   },
   {
-    "id": 41,
+    "id": 42,
     "type": "trolleybus",
     "number": "9",
     "name": "Центр — вул. Київська ",
