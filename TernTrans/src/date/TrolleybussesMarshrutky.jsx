@@ -905,7 +905,7 @@ export const MarshTrollShedule = [
       "8-ма школа"
    ]
   },
-  {
+  { 
     "id": 25,
     "type": "marshrutka",
     "number": "32",
