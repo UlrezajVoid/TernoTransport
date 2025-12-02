@@ -1479,7 +1479,7 @@ export const MarshTrollShedule = [
   {
     "id": 42,
     "type": "trolleybus",
-    "number": "9",
+    "number": "10",
     "name": "Центр — вул. Київська ",
     "stops": [
       "Центр",
